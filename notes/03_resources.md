@@ -9,7 +9,7 @@
 - [linuxcommand.org](http://www.linuxcommand.org/)
 - [Linux Documentation Project Guides](https://tldp.org/guides.html)
 - [Bash Hackers Wiki](https://wiki.bash-hackers.org/start)
--[BashFAQ](http://mywiki.wooledge.org/BashFAQ?action=show&redirect=BashFaq)
+- [BashFAQ](http://mywiki.wooledge.org/BashFAQ?action=show&redirect=BashFaq)
 
 
 ---
