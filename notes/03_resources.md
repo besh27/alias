@@ -1,5 +1,5 @@
 <div align="center">
-    <h1>Awesome shell/slias resources<h1> 
+    <h1>Awesome shell/alias resources<h1> 
     <img alt="creating an alias" src="../assets/images/alias7.jpg"> 
 </div> 
 
