@@ -28,6 +28,12 @@
     source ~/.zshrc
 ```
 
+<div align="center">
+    <h1>Creating an alias <h1> 
+    <img alt="this is the way" src="../assets/images/alias8.jpeg"> 
+</div> 
+
+
 &nbsp;
 ## Alias to help create more aliases
 Instead of going through the steps above, let's create some aliases to make the process easier. 
