@@ -27,6 +27,13 @@
 | <code> alias running='ps wuax | grep mongo'</code> | view current running mongodb's|
 
 &nbsp;
+## Safety Tools
+| Command | Explanation |
+|---------|-------------|
+| <code> alias cp="cp -i"</code> | prompts user if overwriting during copy |
+| <code> alias rm="rm -i"</code> | prompts user when deleting a file of directory |
+
+&nbsp;
 ## List of aliases that get you places!
 | Command | Explanation |
 |---------|-------------|
@@ -41,6 +48,7 @@
 |---------|-------------|
 | <code> alias re="source ~/.bash_profile"</code> | resource profle |
 | <code> alias pro="vim ~/.bash_profile"</code> | view profile via VIM |
+| <code> alias dfh="df -h</code> | view HD storage in human readable view |
 | <code> alias globals='npm list -g --depth=0'</code> |view current npm globals installed |
 | <code> alias shells='cat /etc/shells'</code> | view current shells installed |
 | <code> alias ref="perldoc perlreref"</code> | view a perl / regex ref|
