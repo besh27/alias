@@ -1,0 +1,60 @@
+# Tools
+alias cl="clear && pwd"
+alias l="ls -la"
+alias re="source ~/.bash_profile"
+alias b="cd ..; l"
+alias bb="cd ../..; l"
+go() { cd "$@" && pwd && l; }
+alias mongodb='~/mongodb/bin/mongod --dbpath ~/Documents/data/db'
+alias running='ps wuax | grep mongo'
+alias globals='npm list -g --depth=0'
+alias shells='cat /etc/shells'
+alias rc='cd ~/; l | grep rc || grep bash_profile'
+alias ss='du -sh * | sort -h'
+alias sh='ls -t -1'
+alias cpb='rsync -ah --info=progress2'
+alias path='echo -e ${PATH//:/\\n}'
+alias now='date +"%T"'
+alias time=now
+alias date='date +"%d-%m-%Y"'
+alias cur="sudo htop"
+
+# Dir Locations
+alias d="clear; cd ~/Documents && pwd && l"
+alias a="clear; cd ~/Documents/apps && pwd && l"
+alias c="clear; cd ~/Documents/classes && pwd && l"
+alias p="clear; cd ~/Documents/practiceCode && pwd && l"
+alias pi="clear; cd ~/Documents/apps/python && pwd && l"
+alias r="clear; cd ~/Documents/../../.. && pwd && l"
+alias ga="cd ~/Documents/games && pwd && l"
+
+#References and servers
+alias pihole="ssh pi@10.0.0.137"
+alias pro="vim ~/.bash_profile"
+alias ref="perldoc perlreref"
+alias chelp="vim ~/.bash_help"
+alias retropi="ssh pi@ipaddress"
+alias notes="vim ~/.notes"
+alias dosbox="vim ~/Library/Preferences/DOSBox\ 0.74-3\ Preferences"
+
+# Functions
+search() { history | grep $1;}
+count() { history | grep -c $1;}
+cdls() { cd "$@" && ls; }
+
+develop(){
+if [ -d "$1" ];
+then
+   echo "File $1 exists and will be opened in VSCode. Enjoy!";
+   cd $1;
+   code .;
+else
+   echo "Creating new the directory $1 and opening it in VSCode. Enjoy!" >&2
+   mkdir $1;
+   cd $1;
+   npm init -y;
+   mkdir src && mkdir public;
+   code;
+fi
+}
+
