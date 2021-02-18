@@ -77,4 +77,4 @@ fi
 ---
 
 BACK: [Creating an alias](01_creating_an_alias.md) | 
-NEXT: [Alias resources](03_resources)
+NEXT: [Alias resources](03_resources.md)
