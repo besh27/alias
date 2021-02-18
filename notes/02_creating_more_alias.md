@@ -24,7 +24,6 @@
 | <code> alias rmdir='rm -R'</code> | rm -R shorthand |
 | <code> alias see='cat -n'</code> | view file in commandline |
 | <code> alias mongodb='~/mongodb/bin/mongod --dbpath ~/Documents/data/db'</code> | connect to mongo |
-| <code> alias running='ps wuax | grep mongo'</code> | view current running mongodb's|
 
 &nbsp;
 ## Safety Tools
