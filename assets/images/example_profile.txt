@@ -54,7 +54,7 @@ else
    cd $1;
    npm init -y;
    mkdir src && mkdir public;
-   code;
+   code .;
 fi
 }
 
